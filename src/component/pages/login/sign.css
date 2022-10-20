@@ -1,0 +1,40 @@
+.sign{
+    height: max-content;
+    color: rgba(255, 255, 255, 0.645);
+    height: 80vh;
+}
+.signc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.signf{
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+    font-size: 20px;
+}
+.inp{
+    width: 400px;
+    border: 0px;
+    color: rgba(240, 255, 255, 0.79);
+    outline: none;
+    background-color: rgb(34, 30, 30);
+    border-bottom: 2px solid rgba(255, 0, 0, 0.863);
+}
+.inp:focus{
+    background-color: rgb(34, 30, 30);
+}
+.signbtn{
+    width: 300px;
+    border-radius: 15px;
+    background-color: rgb(119, 119, 119);
+    border: 2px solid rgb(119, 119, 119);
+    font-weight: 700;
+}
+.linkto{
+    color: rgba(240, 255, 255, 0.79);
+    text-decoration: none;
+}
